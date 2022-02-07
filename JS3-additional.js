@@ -5,7 +5,7 @@
 // d. Заповнити масив 20ма рандомними чисалами в діапазоні від 8 до 732 (Google: Generate random number JS)
 
 let arrayA=[];
-for (i=0; i<50; i++){
+for (let i=0; i<50; i++){
     let x=Math.round((Math.random()*1000));
     if (x % 2 === 0){
         arrayA[i]=x;
@@ -16,7 +16,7 @@ for (i=0; i<50; i++){
 console.log(arrayA);
 
 let arrayB=[];
-for (i=0; i<50; i++){
+for (let i=0; i<50; i++){
     let x=Math.round((Math.random()*1000));
     if (x % 2 !== 0){
         arrayB[i]=x;
@@ -27,42 +27,40 @@ for (i=0; i<50; i++){
 console.log(arrayB);
 
 let arrayC=[];
-for (i=0; i<20; i++){
+for (let i=0; i<20; i++){
         arrayC[i]=Math.round((Math.random()*1000));
 }
 console.log(arrayC);
 let arrayD=[];
-for (i=0; i<20; i++){
+for (let i=0; i<20; i++){
     arrayD[i]=Math.round((Math.random()*724))+8;
 }
 console.log(arrayD);
 
 // Вивести за допомогою console.log кожен третій елемен
-for (i=0; i<arrayD.length/2-4; i++){
+for (let i=0; i<arrayD.length/2-4; i++){
     let n=3*i+2;
     console.log(arrayD[n]);
 }
 // Вивести за допомогою console.log кожен третій елемен тільки якщо цей елемент є парним
 // (парний індект елементу).
-for (i=0; i<arrayD.length/2-4; i++){
+for (let i=0; i<arrayD.length/2-4; i++){
     let n=3*i+2;
     if (n%2===0) {
         console.log(arrayD[n]);
     }
 }
 //парне значення елементу
-for (i=0; i<arrayD.length/2-4; i++){
-    let n=3*i+2;
-    if (arrayD[n]%2===0) {
-        console.log(arrayD[n]);
+for (let i=0; i<arrayD.length; i++){
+       if (arrayD[i]%2===0) {
+        console.log(arrayD[i]);
     }
 }
 //Вивести за допомогою console.log кожен третій елемен тільки якщо цей елемент є парним та записати їх в новий масив
 let newArray =[];
-for (i=0; i<arrayD.length/2-4; i++){
-    let n=3*i+2;
-    if (arrayD[n]%2===0) {
-        newArray.push(arrayD[n])
+for (let i=0; i<arrayD.length; i+=3){
+       if (arrayD[i]%2===0) {
+        newArray.push(arrayD[i])
     }
 }
 console.log(newArray)
@@ -86,7 +84,7 @@ console.log(sum/values.length);
 // Створити масив з рандомними значеннями, помножити всі його елементи на 5 та перемістити їх в інший масив.
 
 let arrayRandom=[];
-for (i=0; i<20; i++){
+for (let i=0; i<20; i++){
     arrayRandom[i]=Math.round((Math.random()*500));
 }
 console.log(arrayRandom);
@@ -108,7 +106,7 @@ console.log(arraySmaller);
 
 // - Взяти масив з 10 чисел або створити його. Вивести в консоль тільки ті елементи, значення яких є парними.
 let arrayOfTenNumbers=[];
-for (i=0; i<10; i++){
+for (let i=0; i<10; i++){
     arrayOfTenNumbers[i]=Math.round((Math.random()*500));
 }
 console.log(arrayOfTenNumbers);

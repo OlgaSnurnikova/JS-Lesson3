@@ -64,24 +64,24 @@
 //     console.log(arrayOfNumbers[i]);
 // }
 // let arrayOfText = ['note','table','phone','book','text', 'evening', 'js lecture', 'friday', 'weekends', 'rain'];
-// for (i=0; i<arrayOfText.length; i++) {
+// for (let i=0; i<arrayOfText.length; i++) {
 //     console.log (arrayOfText[i])
 
 // let arrayAllTypes = ['note','table',1,12,false, 'evening', 'js lecture', true, 'weekends', 'rain'];
-// for (i=0; i<arrayAllTypes.length; i++) {
+// for (let i=0; i<arrayAllTypes.length; i++) {
 //     console.log (arrayAllTypes[i])
 // }
 //
 //
-// for (i=0; i<arrayAllTypes.length; i++) {
+// for (let i=0; i<arrayAllTypes.length; i++) {
 //     if (typeof arrayAllTypes[i]=== 'boolean')
 //     console.log (arrayAllTypes[i])
 // }
-// for (i=0; i<arrayAllTypes.length; i++) {
+// for (let i=0; i<arrayAllTypes.length; i++) {
 //     if (typeof arrayAllTypes[i]=== 'number')
 //         console.log (arrayAllTypes[i])
 // }
-// for (i=0; i<arrayAllTypes.length; i++) {
+// for (let i=0; i<arrayAllTypes.length; i++) {
 //     if (typeof arrayAllTypes[i]=== 'string')
 //         console.log (arrayAllTypes[i])
 // }
@@ -105,29 +105,29 @@
 // array[8]='target';
 // array[9]= {type: 'homework', task: 'js', number: 10}
 // console.log(array)
-// for (i=0; i<array.length; i++) {
+// for (let i=0; i<array.length; i++) {
 //     console.log(array[i])
 // }
 //
-// for (i=1; i<=10; i++) {
+// for (let i=1; i<=10; i++) {
 //     console.log(i)
 //     document.write(i)
 // }
-// for (i=1; i<=100; i++) {
+// for (let i=1; i<=100; i++) {
 //     console.log(i)
 //     document.write(i)
 // }
-// for (i=1; i<=100; i+=2) {
+// for (let i=1; i<=100; i+=2) {
 //     console.log(i)
 //     document.write(i)
 // }
-// for (i=1; i<=100; i++) {
+// for (let i=1; i<=100; i++) {
 //     if (i%2===0){
 //         console.log(i)
 //         document.write(i)
 //     }
 // }
-// for (i=1; i<=100; i++) {
+// for (let i=1; i<=100; i++) {
 //     if (i%2!==0){
 //         console.log(i)
 //         document.write(i)
