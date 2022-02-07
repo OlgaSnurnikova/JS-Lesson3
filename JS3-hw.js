@@ -47,7 +47,7 @@
 // }
 // let i=1;
 // while (i<=20){
-//     document.write(`<h1>hello okten ${i}</h1>`);
+//     document.write(`<h1>hello okten${i}</h1>`);
 //     i++;
 // }
 

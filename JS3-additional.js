@@ -38,16 +38,14 @@ for (let i=0; i<20; i++){
 console.log(arrayD);
 
 // Вивести за допомогою console.log кожен третій елемен
-for (let i=0; i<arrayD.length/2-4; i++){
-    let n=3*i+2;
-    console.log(arrayD[n]);
+for (let i=0; i<arrayD.length; i+=3){
+     console.log(arrayD[i]);
 }
 // Вивести за допомогою console.log кожен третій елемен тільки якщо цей елемент є парним
 // (парний індект елементу).
-for (let i=0; i<arrayD.length/2-4; i++){
-    let n=3*i+2;
-    if (n%2===0) {
-        console.log(arrayD[n]);
+for (let i=0; i<arrayD.length; i+=3){
+    if (arrayD[i]%2===0) {
+        console.log(arrayD[i]);
     }
 }
 //парне значення елементу
